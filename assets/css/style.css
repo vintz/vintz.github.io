@@ -34,6 +34,13 @@ body::selection{
   background: #fff2a8;
 }
 
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+
 p::selection{
   background: lightgrey;
 }
@@ -183,7 +190,3 @@ and (min-device-width : 768px)  {
   line-height: 1em;
 }
 
-img {
-  align-items: center;
-  margin: auto;
-}
