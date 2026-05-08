@@ -3,7 +3,7 @@
   {% for post in site.posts %}
 
       {% cycle 'add row' : '<div class="row">', nil, nil%}
-      <div class="four columns">
+      <div class="">
         <a href="{{ site.baseurl }}{{ post.url }}" class="link">
         <h3>{{ post.title }}</h3>
         <div class="justify">

@@ -166,6 +166,9 @@ list-style-type: none;
 padding-right: 20px;
 }
 
+.columns {
+  margin-left: 5% !important;
+}
 @media only screen
 and (min-device-width : 768px)  {
   .threecol {
@@ -181,6 +184,7 @@ and (min-device-width : 768px)  {
     width: 23%;
     margin-right:0;
   }
+  
 }
 
 .illuminated p:first-of-type:first-letter
